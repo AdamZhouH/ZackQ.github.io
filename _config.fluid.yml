@@ -214,6 +214,17 @@ post:
       enable: true
       source: "leancloud"  # 统计数据来源，可选：leancloud | busuanzi   注意不蒜子会间歇抽风
       format: "{} 次"
+  updated:
+    enable: true
+
+    # 描述文字
+    # Descriptive text before date
+    content: 本文最后更新于：
+
+    # 是否使用相对时间表示，比如："3 天前"
+    # If true, it will be a relative time, such as: "3 days ago"
+    relative: false
+
 
 valine:
   appid: T3mGb9bUEAFdmkyVcfnUiJKI-gzGzoHsz
@@ -257,7 +268,6 @@ code:
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
       bg_color: true
-
 
 
 web_analytics:  # 网页访问统计
